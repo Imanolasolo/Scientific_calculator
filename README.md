@@ -51,7 +51,7 @@ This directory contains a collection of files, functions, structs and scripts us
 
 > To make it windows-executable copy and rename `Scientific_calculator.py` to `Scientific_calculator.pyw`
 
-> Run `yinstaller --noconsole Scientific_calculator.pyw` in the command line (I used Windows powershell).
+> Run `pyinstaller --noconsole Scientific_calculator.pyw` in the command line (I used Windows powershell).
 
 > Run the executable program installed in newly created `DIST` directory.
 
