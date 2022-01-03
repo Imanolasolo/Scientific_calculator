@@ -34,17 +34,11 @@ This directory contains a collection of files, functions, structs and scripts us
 	
 ## Dependences 
 	
-> [hangmants.py](https://github.com/Imanolasolo/Hangman/blob/master/hangmants.py) --> Main file to execute and join the app	
+> [Scientific_calculator.py](https://github.com/Imanolasolo/Scientific_calculator/blob/master/Scientific_calculator.py) --> Main file to execute and join the app	
 
-> [README.md](https://github.com/Imanolasolo/Hangman/blob/master/README.md) ---> README file to show the project insights. 
+> [README.md](https://github.com/Imanolasolo/Scientific_calculator/blob/master/README.md) ---> README file to show the project insights. 
 
->[hangman_easy.py](https://github.com/Imanolasolo/Hangman/blob/master/hangman_easy.py) ---> Module where we can find the data to use in easy option 
-
->[hangman_intermediate.py](https://github.com/Imanolasolo/Hangman/blob/master/hangman_intermediate.py) ---> Module where we can find the data to use in intermediate option
-
->[hangman_hard.py](https://github.com/Imanolasolo/Hangman/blob/master/hangman_hard.py)-->  Module where we can find the data to use in hard option
 	
->[hangman_pics.py](https://github.com/Imanolasolo/holbertonschool-low_level_programming/blob/main/0x02-functions_nested_loops/3-islower.c)--> Module where we can find the pictures data to use in the app.	
 
 
 ## Installing, compiling and using
@@ -53,10 +47,13 @@ This directory contains a collection of files, functions, structs and scripts us
 	
 > Make executable files from your command line with `chmod +x *.py`
 
-> Run `hangmants.py` with `python3 hangmants.py`
+> Run `Scientific_calculator.py` from Python 3-10 IDLE
 
+> To make it windows-executable copy and rename `Scientific_calculator.py` to `Scientific_calculator.pyw`
 
+> Run pyinstaller --noconsole Scientific_calculator.pyw in the command line (I used Windows powershell).
 
+Run the executable program installed in newly created `DIST` directory.
 
 ## Builtins
 	
